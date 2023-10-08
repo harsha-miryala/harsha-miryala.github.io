@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Harshavardhan Miryala - Resume</title>
+</head>
+<body>
+    <header>
+        <h1>Harshavardhan Miryala</h1>
+        <div class="profile">
+            <img src="assets/dp.jpg" alt="Profile Picture">
+        </div>
+        <div class="contact">
+            <p>Fullstack Developer</p>
+            <p>Phone: 805-331-5527</p>
+            <p>Email: harshavardhan@ucsb.edu</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/harsha-miryala/">in/harsha-miryala</a></p>
+            <p>Github: <a href="https://github.com/harsha-miryala">harsha-miryala</a></p>
+        </div>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>An ambitious individual with a creative and versatile personality. I am very particular when it comes to time management. I am an enthusiast who loves challenges and hardships and can articulate abstract ideas with clarity.</p>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Front-End Development</h3>
+                <p>JavaScript, React.js, Typescript, HTML5, CSS</p>
+            </div>
+            <div class="skill">
+                <h3>Back-End Development</h3>
+                <p>C++, Python, SQL, Ruby, C, R, Java, NRQL, Go, Node.js, Shell</p>
+            </div>
+            <div class="skill">
+                <h3>Tools & Version Control</h3>
+                <p>MySQL, Ruby on Rails, Redis, Terraform, MongoDB, Docker, Memcached, Datadog, NewRelic, CircleCI, Git, Kubernetes, AWS, Jupyter, Redash, Snowflake, Unix, Pandas, Tensorflow, Agile, Kafka, Atlantis, Chainer, Rollbar, Git, VS Code</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>University</th>
+                    <th>Period</th>
+                </tr>
+                <tr>
+                    <td>Masters in Computer Science</td>
+                    <td>University of California Santa Barbara</td>
+                    <td>Sep 2022 – Mar 2024</td>
+                </tr>
+                <tr>
+                    <td>Bachelors in Computer Science</td>
+                    <td>Indian Institue of Technology Roorkee</td>
+                    <td>July 2015 – May 2019 </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-entry">
+                <h3>Software Engineering Intern - Appfolio</h3>
+                <p>Santa Barbara, CA, June 2023 – Sep 2023</p>
+                <ul>
+                    <li>Streamlined and optimized vendor requests within the Screenings team, resulting in a 2x reduction in screening request costs.</li>
+                    <li>Developed a robust infrastructure using Terraform in Datadog, enabling real-time monitoring and alerting for vendor request failures, reducing downtime to just 5 minutes. This ensured a modular design and improved the onboarding time for new vendors.</li>
+                    <li>Spearheaded the migration of data storage from DynamoDB (NoSQL) to RDBMS (SQL), implemented essential indexes and views, and significantly improved application speed by 35%. This facilitated visibility and learning for other teams.</li>
+                </ul>
+            </div>
+            <div class="experience-entry">
+                <h3>Senior Member Technical - D. E. Shaw</h3>
+                <p>Hyderabad, India, June 2019 – Aug 2022</p>
+                <ul>
+                    <li>Acted as the principal contact for Oil fundamental data and dealt with data abstraction, validation, storage, access, analysis, visualization, and forecasting and enhanced the speed and efficiency of existing systems using - TDD, DRY and Modular design.</li>
+                    <li>Developed a generic, robust and scalable API capable of seamlessly extracting smartly cached data from multiple vendors (~ 1 TB). This enhanced the speed of all applications by ~10 times, enforcing centralized access and a single point of failure.</li>
+                    <li>Constructed a generic procedure for storing causal (time-dependent) data in MySQL through parallelization and optimizing the existing framework. This resulted in update queries running 8 times faster and was thus later adopted by other teams in the firm.</li>
+                    <li>Brought down the run-time of time-sensitive reports by 10x through smart caching leveraging Redis (in-memory cache), HDF5 (disk cache) and distributed parallelization for data access API and resource-intensive analyses, thereby giving the team an edge.</li>
+                    <li>Improved the turn-around time for onboarding tasks to ~1 day (a drop of 90%) by developing a generic infrastructure for data downloaders, charting interfaces and reports. Also, ensured robustness in the design, which brought down the failure rate/resolution time by 8 folds and also proved quite valuable during COVID-19 when numerous new vendors had to be tracked.</li>
+                    <li>Collaborated closely with data analysts on data cleaning, pre-processing, and the development of fundamental models, including jet fuel demand prediction, gasoline export estimation, and crude balance forecasts, which proved crucial during COVID-19.</li>
+                    <li>Introduced parallelism for large data analyses and created a versatile infrastructure for one-off prediction models.</li>
+                </ul>
+            </div>
+            <div class="experience-entry">
+                <h3>Software Engineering Intern - D. E. Shaw</h3>
+                <p>Hyderabad, India, May 2018 – July 2018</p>
+                <ul>
+                    <li>Engineered a platform to show user-tailored feeds based on relevance and priority for optimal request processing. Processed ~250GB of data and built user-specific live models through neural networks, post-feature engineering with a periodic model update.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-entry">
+                <h3><a href="https://github.com/harsha-miryala/File-System-Fuse">File System using FUSE</a> - Operating Systems</h3>
+                <p>Developed a robust optimization of the EXT-4 file system from the ground up through FUSE. Simulated Mandelbrot and Complex Algos to demonstrate the system's reliability and efficiency.</p>
+            </div>
+            <div class="project-entry">
+                <h3><a href="https://github.com/harsha-miryala/MIPS-VM">Virtual Machine for MIPS Architecture</a> - Compilers</h3>
+                <p>Programmed an advanced VM for MIPS by designing a generic infrastructure and assembly code optimization, and provided the backend for the debugger and state machine.</p>
+            </div>
+            <div class="project-entry">
+                <h3><a href="https://github.com/bhavyejain/RaftConsensus">Synchronization using Raft Consensus</a> - Distributed Systems</h3>
+                <p>Created a distributed network to manage shared encrypted dictionaries and experimented with Raft protocol for synchronization and mimicked node failures for simulation.</p>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section class="leadership">
+            <h2>Leadership & Activities</h2>
+            <div class="leadership-entry">
+                <ul>
+                    <li>Acted as a Teaching Assistant during both undergraduate and graduate studies, teaching Computer Science fundamentals.</li>
+                    <li>Initiated and collaborated on various tools such as Grammar Check, Summarizer and Git-Slack integration at D. E. Shaw.</li>
+                    <li>Acted as a critical member in the initiative to upskill female undergraduate students through D. E. Shaw (DESIS Ascend Educare). Worked in the process of selection, and post recruitment and acted as a course mentor for DS and Algo.</li>
+                    <li>Volunteered as an Academic Fellow for teaching C++ Programming and Databases at MAD (NGO for shelter home kids).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Other sections here -->
+        
+    </main>
+</body>
+</html>
